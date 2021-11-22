@@ -1,0 +1,245 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "address": "123 main st",
+      "sqfootage": 1000,
+      "handicapaccessible": false,
+      "phonenumber": "401-123-1234"
+    },
+    {
+      "id": 2,
+      "address": "435 yahoo st",
+      "sqfootage": 600,
+      "handicapaccessible": true,
+      "phonenumber": "536-123-1234"
+    },
+    {
+      "id": 3,
+      "address": "1234 mjk st",
+      "sqfootage": 1200,
+      "handicapaccessible": true,
+      "phonenumber": "536-192-1234"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lucious hardie",
+      "productTypeId": 1,
+      "price": 0.59
+    },
+    {
+      "id": 2,
+      "name": "hardie mc hard hard ",
+      "productTypeId": 1,
+      "price": 0.79
+    },
+    {
+      "id": 3,
+      "name": "double bubble",
+      "productTypeId": 2,
+      "price": 1
+    },
+    {
+      "id": 4,
+      "name": "Hershey",
+      "productTypeId": 3,
+      "price": 2
+    },
+    {
+      "id": 5,
+      "name": "Coca Cola",
+      "productTypeId": 4,
+      "price": 1
+    },
+    {
+      "id": 6,
+      "name": "Candie Hardie",
+      "productTypeId": 1,
+      "price": 0.35
+    },
+    {
+      "id": 7,
+      "name": "Trident",
+      "productTypeId": 2,
+      "price": 1.5
+    },
+    {
+      "id": 8,
+      "name": "Snickers",
+      "productTypeId": 3,
+      "price": 1.75
+    },
+    {
+      "id": 9,
+      "name": "Canada Dry",
+      "productTypeId": 4,
+      "price": 1
+    },
+    {
+      "id": 10,
+      "name": "YumYum",
+      "productTypeId": 3,
+      "price": 1.5
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "john",
+      "locationId": 1,
+      "manager": false,
+      "fulltime": true,
+      "hourlyrate": 13
+    },
+    {
+      "name": "sherwin",
+      "locationId": 1,
+      "manager": true,
+      "fulltime": true,
+      "hourlyrate": 22,
+      "id": 6
+    },
+    {
+      "name": "Jacob",
+      "locationId": 3,
+      "manager": false,
+      "fulltime": false,
+      "hourlyrate": 3,
+      "id": 7
+    },
+    {
+      "name": "ramiro",
+      "locationId": 2,
+      "manager": true,
+      "fulltime": true,
+      "hourlyrate": 65,
+      "id": 8
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Soda"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "sherwin",
+      "email": "sherwin@sherwin.com"
+    },
+    {
+      "id": 2,
+      "name": "elliot",
+      "email": "elliot@sherwin.com"
+    },
+    {
+      "id": 3,
+      "name": "sohpia",
+      "email": "sohpia@sherwin.com"
+    },
+    {
+      "name": "sherwin vargas",
+      "email": "svargas025@gmail.com",
+      "id": 4
+    }
+  ],
+  "purchases": [
+    {
+      "customerId": 4,
+      "productId": 1,
+      "id": 41
+    },
+    {
+      "customerId": 4,
+      "productId": 2,
+      "id": 42
+    },
+    {
+      "customerId": 4,
+      "productId": 6,
+      "id": 43
+    },
+    {
+      "customerId": 4,
+      "productId": 3,
+      "id": 44
+    },
+    {
+      "customerId": 3,
+      "productId": 3,
+      "id": 44
+    },
+    {
+      "customerId": 2,
+      "productId": 3,
+      "id": 44
+    },
+    {
+      "customerId": 1,
+      "productId": 3,
+      "id": 44
+    },
+    {
+      "customerId": 4,
+      "productId": 10,
+      "id": 45
+    },
+    {
+      "customerId": 4,
+      "productId": 9,
+      "id": 46
+    },
+    {
+      "customerId": 4,
+      "productId": 9,
+      "id": 47
+    },
+    {
+      "customerId": 4,
+      "productId": 1,
+      "id": 48
+    },
+    {
+      "customerId": 4,
+      "productId": 2,
+      "id": 49
+    },
+    {
+      "customerId": 4,
+      "productId": 5,
+      "id": 50
+    },
+    {
+      "customerId": 4,
+      "productId": 5,
+      "id": 51
+    },
+    {
+      "customerId": 4,
+      "productId": 5,
+      "id": 52
+    },
+    {
+      "customerId": 4,
+      "productId": 5,
+      "id": 53
+    }
+  ],
+  "productlocations": [],
+  "customerlocations": []
+}
